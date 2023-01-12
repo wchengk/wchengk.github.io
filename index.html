@@ -37,14 +37,16 @@
         </div>
     </div>
     <div id="result" style="background-color: #e8e9ea"></div>
-    <img id="ers" alt="17ers" style="max-width: calc(100vw - 20px); max-height: calc(100vh - 100px);">
+    <img id="ers0" alt="17ers">
+    <img id="ers1" alt="17ers">
     <script>
         var imgs = 8;
         var curImg = Math.floor(Math.random() * imgs);
         function chImg(){
-            curImg ++;
+            curImg += 2;
             curImg %= 8;
-            getObj("ers").src = "//kevinwu521.gitee.io/res/17ers" + curImg + ".jpg";
+            getObj("ers0").src = "//kevinwu521.gitee.io/res/17ers" + curImg + ".jpg";
+            getObj("ers1").src = "//kevinwu521.gitee.io/res/17ers" + ((curImg + 1) % imgs) + ".jpg";
         }
         chImg();
         function onSearch(){
