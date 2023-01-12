@@ -47,6 +47,7 @@
             curImg %= 8;
             getObj("ers0").src = "//kevinwu521.gitee.io/res/17ers" + curImg + ".jpg";
             getObj("ers1").src = "//kevinwu521.gitee.io/res/17ers" + ((curImg + 1) % imgs) + ".jpg";
+            setTimeout(chImg,4000);
         }
         chImg();
         function onSearch(){
