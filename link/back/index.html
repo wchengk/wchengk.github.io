@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-app-status-bar-style" content="white">
+    <link rel="apple-touch-icon" href="/res/banhui192.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>链接</title>
+    <link rel="stylesheet" type="text/css" href="/all.css">
+    <link rel="stylesheet" type="text/css" href="/text.css">
+    <link rel="stylesheet" type="text/css" href="/form.css">
+    <link rel="stylesheet" type="text/css" href="/div.css">
+    <link rel="shortcut icon" href="/res/banhui.ico">
+    <script src="/common.js"></script>
+    <script>
+        function getIP(){
+            var ajax = new XMLHttpRequest();
+            ajax.open("GET","/ddns/ip.txt?t1=" + Math.random() + "&t2=" + Math.random(),false);
+            ajax.send();
+            return ajax.responseText;
+        }
+        var IP = getIP();
+        var path = getParam("path");
+        var nojump = getParam("nojump");
+        if (nojump)document.body.innerHTML += "<br><br><p class=\"txtmid\">点击页面跳转</p>";
+        else jumpNow();
+        function jumpNow(){
+            location.href = "http://[" + IP + "]:21600" + path;
+        }
+    </script>
+</head>
+<body onclick="jumpNow()">
+</body>
+</html>

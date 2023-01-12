@@ -1,0 +1,23 @@
+var DataBase = [
+    ['薛畅：做阳光自信的附中人','大家好，我是附中初 一年级17班的薛畅b（￣▽￣）d　，曾经是学校大队长，目前则荣幸担任17班班长一职。','/fzren/xuechang/','fzren/xuechang/s.jpeg'],
+    ['徐子越：做勤勤恳恳的附中人','大家好，我是师大附中初一17班的徐子越，目前荣幸担任17班的卫生委员一职。','/fzren/xzy/','fzren/xzy/3.jpeg'],
+    ['吕乐岩：做朝气蓬勃的附中人','大家好，我是吕乐岩，来自初一17班这个优秀的集体。我阳光向上、朝气蓬勃','/fzren/lvleyan/','fzren/lvleyan/0.jpeg'],
+    ['王梓豪：做一个努力拼搏的附中人','我是王梓豪，今年12岁，是17班中最小的新生。我的名字中，“梓豪”意味着栋梁之材','/fzren/wzh/','fzren/wzh/0.jpeg'],
+    ['于瀚宸：做谦尊而光的附中人','我是初一17班于瀚宸，现任班里历史课代表，很荣幸与大家分享我的生活。','/fzren/yhc','fzren/yhc/0.png'],
+    ['附中电子铃声新版（bellfz3）','北京师大附中的电子铃声。','/14/tools/clock/fz3','search/bell.png'],
+    ['附中电子铃声（无下课铃）（bellfz2）','北京师大附中电子铃声，没有下课铃。','/14/tools/clock/fz2','search/bell.png'],
+    ['附中电子铃声（bellfz1）','北京师大附中的电子铃声。','/14/tools/clock/fz1','search/bell.png'],
+    ['钢琴（piano）','可以模拟钢琴，把键盘当钢琴','/14/tools/piano','search/music.png'],
+    ['打败王梓豪2（pkwzh2）','可用于训练数学整式加减。','/14/games/pkwzh2/','search/math.png'],
+    ['时钟（clock)','电子时钟，可以放到Kindle上。','/14/tools/clock','search/clock.png'],
+    ['时钟（黑色）','电子时钟，可以放到Kindle上。','/14/tools/clock/black','search/clock.png'],
+    ['吴承坤计划表（schedule）','吴承坤的时间计划表','/14/person/time','search/clock.png'],
+    ['求最大公因数（gcd）','计算两个数的最大公因数','/14/math/gcd','search/gcd.png'],
+    ['互联网大厂裁员（fire）','时政述评：互联网大厂裁员','/res/szsp.pptx','search/bigfire.png'],
+    ['快问快答（quickqa）','#游戏（games）','/14/games/quickqa','search/ques.png'],
+    ['找不同（super）','#游戏（games）','/14/games/super','search.jpeg'],
+    ['有理数复盘（youlishu）','#个人（persoal）','/14/person/youlishu','search/math.png'],
+    ['5班官网(5ban)','前往5班官网','/link/5ban/','yaoguanghui.png'],
+    ['Compiler explorer','在线编译运行C/C++','/link/godbolt/','search/godbolt.png'], 
+    ['查看后台IP地址','查看后台的ip地址','/ddns/ip.txt','search/internet.jpeg']
+];

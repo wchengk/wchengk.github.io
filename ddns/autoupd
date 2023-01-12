@@ -1,0 +1,10 @@
+#!/bin/bash
+cd /Users/xiaoxinwu/www
+while true; do
+    ddns/getip6 > ddns/ip.txt
+    git remote add origin git@github.com:bjsdfz17ban/bjsdfz17ban.github.io.git
+    git add ddns
+    git commit -m "changed ip"
+    git push origin master
+    sleep 1
+done

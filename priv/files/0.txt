@@ -1,0 +1,4 @@
+insert into sites
+(name,intr,url,simple)
+values
+(
